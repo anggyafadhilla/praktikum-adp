@@ -6,7 +6,7 @@ fx = 0
 delta_x = (b-a)/n
 for a in range (n) :
     x_i =  x_0 + delta_x 
-    x_0 = x_i
+    x_0 = x_i #x_0 diperbarui
     fx_i = (x_i**2) + (2*x_i)
     fx = fx + fx_i
 luas_daerah = fx * delta_x
