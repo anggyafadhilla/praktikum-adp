@@ -1,6 +1,5 @@
 n = int(input("Masukkan Jumlah Pendaftar : "))
 for i in range (1,n+1) :
-    n+1==True
     print(f"Input Data Pendaftar {i}")
     nama=input("Nama : ")
     matkul=input("Mata Kuliah : ")
