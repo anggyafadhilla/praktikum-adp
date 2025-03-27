@@ -10,7 +10,6 @@ for i in range (1,n+1) :
             v+=1
         else :
             print("Inputkan ulang nilai anda")
- 
     w=0
     while w <= 0 :
         tes_tulis= float(input("Penilaian Test Tulis (Rentang nilai 1-100) : "))
@@ -25,7 +24,6 @@ for i in range (1,n+1) :
             x+=1
         else :
             print("Inputkan ulang nilai anda")
-    n+2==False
     nilai=0
     nilai += (wawancara + tes_tulis + mengajar) / 3
     print (f"Rata rata nilai pendaftar : {nilai}")
